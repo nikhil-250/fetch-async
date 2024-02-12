@@ -1,0 +1,104 @@
+
+.text1 {
+  width: 100%;
+  text-align: center;
+  top: 0;  
+  margin:0;
+  text-shadow: 1px 1px 2px black, 
+                    0 0 25px red,
+                    0 0 5px rgb(139, 139, 0);
+  
+}
+
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  color: green;
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+}
+body{
+  background-image: url("https://miro.medium.com/v2/resize:fit:1200/0*He_QWZmayGk_JHdm");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size:cover;
+  background-position:center;
+  left:0;
+  top:0;
+ background-attachment: fixed;
+ background: blur(5px);
+ font-family: 'Montserrat', sans-serif;
+font-family: 'Overpass', sans-serif;
+}
+.background{
+  background: url("https://miro.medium.com/v2/resize:fit:1200/0*He_QWZmayGk_JHdm") center/cover no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5px;
+  color: white;
+  font-size: medium;
+}
+.card {
+  margin-bottom: 10px;
+  color: black;
+  /* background-color: grey; */
+}
+#scroll-text {
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+  
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+
+
+/* .loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255,255,255,.6);
+} */
+
+
+
+
+
+
+
+/* .card {
+position:sticky;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  } */
+ 
